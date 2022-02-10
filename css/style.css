@@ -980,20 +980,38 @@ footer {
     }
 
     .single-item {
-        height: 450px;
+        height: 440px;
     }
     
     #main_slide .single-item .draggable {
-        height: 450px;
+        height: 440px;
     }
     
     #main_slide .slick-list {
-        height: 450px;
+        height: 440px;
         padding-top: 5rem;
     }
 
     .slick-dots {
         display: none;
+    }
+
+    .slick-arrow {
+        width: 1.5rem;
+        height: 3rem;
+    }
+
+    .slide-content .slick-arrow {
+        width: 1rem;
+        height: 2rem;
+    }
+
+    .content{
+        margin: 6rem 0;
+    }
+
+    .card_slide {
+        padding: 0;
     }
 
     .video {
@@ -1012,8 +1030,22 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+
     .single-item {
+        height: 360px;
+    }
+    
+    #main_slide .single-item .draggable {
+        height: 360px;
+    }
+    
+    #main_slide .slick-list {
         height: 400px;
+        padding-top: 5rem;
+    } 
+
+    .card_container {
+        flex-wrap: wrap;
     }
 
 }
