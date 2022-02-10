@@ -783,9 +783,17 @@ footer {
     text-align: center;
 }
 
+.footer_links p:nth-child(1) {
+    padding-left: 0;
+}
+
 .icon_box a i {
     font-size: 1.5rem;
     margin: 0 .5vw;
+}
+
+.icon_box a span {
+    display: none;
 }
 
 .footer_item {
@@ -958,7 +966,7 @@ footer {
     .video video {
         margin-right: 1rem;
     }
-    
+
     .footer_l {
         width: 90%;
     }
@@ -973,6 +981,18 @@ footer {
 
     .modal_detail {
         display: none;
+    }
+
+    .card_text p:nth-child(1), .card .card_text p:nth-child(2), .card .card_text p:nth-child(3) {
+        line-height: 1.7rem;
+    }
+
+    .card_container {
+        flex-wrap: wrap;
+    }
+
+    .card_text p {
+        line-height: 2rem;
     }
 
     .slick-slide img:nth-child(1) {
@@ -1006,8 +1026,8 @@ footer {
     }
 
     .slide-content .slick-arrow {
-        width: 1rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 3rem;
     }
 
     .content{
@@ -1016,6 +1036,14 @@ footer {
 
     .card_slide {
         padding: 0;
+    }
+
+    [data-aos][data-aos][data-aos-delay="300"].aos-animate, body[data-aos-delay="300"] [data-aos].aos-animate {
+        transition-delay: 0.1s;
+    }
+    
+    [data-aos][data-aos][data-aos-delay="500"].aos-animate, body[data-aos-delay="500"] [data-aos].aos-animate {
+        transition-delay: 0.1s;
     }
 
     .video {
@@ -1027,8 +1055,22 @@ footer {
         margin: 0;
     }
 
+    .video_txt {
+        margin-top: 2rem;
+    }
+
+    .video_txt p:nth-child(2){
+        margin-bottom: 1rem;
+    }
+    
+    .video_txt p:nth-child(3){
+        margin-bottom: 1rem;
+    }
+    
     .video_right button {
         width: 50%;
+        margin: 2rem 0;
+        padding: 1rem;
     }
 
 }
@@ -1052,8 +1094,40 @@ footer {
         padding-top: 5rem;
     } 
 
-    .card_container {
-        flex-wrap: wrap;
+    .icon_box a span {
+        display: inline-block;
+    }
+
+    .footer_links {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .footer_links p:nth-child(1) {
+        padding-left: 3rem;
+    }
+    
+    .footer_sns {
+        width: 100%;
+        border-top: 1px solid #eee;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .icon_box a i{
+        margin: 0 1rem;
+    }
+
+    .icon_box a:nth-child(1) i{
+        margin-left: 0;
+    }
+
+    .footer_l {
+        display: block;
+    }
+
+    .footer_item {
+        text-align: center;
     }
 
 }
