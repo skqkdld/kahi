@@ -1034,6 +1034,10 @@ footer {
     .single-item {
         height: 360px;
     }
+
+    .slick-dots {
+        display: none;
+    }
     
     #main_slide .single-item .draggable {
         height: 360px;
