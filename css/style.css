@@ -992,7 +992,11 @@ footer {
         padding-top: 5rem;
     }
 
-    .slick-dots {
+    .slick-dots, .slick-dots li, .slick-dots li button{
+        display: none;
+    }
+    
+    .slick-dots::after {
         display: none;
     }
 
