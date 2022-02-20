@@ -64,7 +64,7 @@ button {
 .modal_content {
     z-index: 999;
     width: 70vw;
-    height: 75%;
+    height: 85%;
     background-color: #fff;
     position: absolute;
     left: 15%;
@@ -153,7 +153,7 @@ button {
 }
 
 .detail {
-    width: 90%;
+    width: 55%;
     height: 100%;
     margin: 0 auto;
 }
